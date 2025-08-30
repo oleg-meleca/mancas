@@ -1,0 +1,72 @@
+BODY {
+	MARGIN: 0px;
+}
+TD
+{
+	font-size: 9px;
+	font-family: Tahoma;
+}
+.tabel_1 
+{
+	BORDER: #000 1px solid;
+}
+.td_LTRB
+{
+	border-left: #000 1px solid; border-top: #000 1px solid; border-right: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_L
+{
+	border-left: #000 1px solid;
+}
+.td_LT
+{
+	border-left: #000 1px solid; border-top: #000 1px solid;
+}
+.td_LTR
+{
+	border-left: #000 1px solid; border-top: #000 1px solid; border-right: #000 1px solid;
+}
+.td_LTB
+{
+	border-left: #000 1px solid; border-top: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_LR
+{
+	border-left: #000 1px solid; border-right: #000 1px solid;
+}
+.td_LRB
+{
+	border-left: #000 1px solid; border-right: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_LB
+{
+	border-left: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_T
+{
+	border-top: #000 1px solid;
+}
+.td_TR
+{
+	border-top: #000 1px solid; border-right: #000 1px solid;
+}
+.td_TB
+{
+	border-top: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_TRB
+{
+	border-top: #000 1px solid; border-right: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_R
+{
+	border-right: #000 1px solid;
+}
+.td_RB
+{
+	border-right: #000 1px solid; border-bottom: #000 1px solid;
+}
+.td_B
+{
+	border-bottom: #000 1px solid;
+}
