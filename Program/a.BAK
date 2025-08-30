@@ -1,0 +1,10 @@
+create sql view vsit as;
+SELECT Carti.codm, Carti.aut, Carti.den, Carti.edt, Carti.pr2,;
+  SUM(Carti.cant), IIF(ISNULL(Vsale_a.sum_cant),0,Vsale_a.sum_cant),;
+  SUM(Carti.cant)-IIF(ISNULL(Vsale_a.sum_cant),0,Vsale_a.sum_cant);
+ FROM  dcasa!carti LEFT OUTER JOIN dcasa!vsale Vsale_a ;
+   ON  Carti.codm = Vsale_a.codm;
+ WHERE UPPER(?paut)$UPPER(Carti.aut) = .T.;
+   AND UPPER(?pden)$UPPER(Carti.den) = .T.;
+   AND UPPER(?pedt)$UPPER(Carti.edt) = .T.;
+   AND ASCAN(apcod,Carti.codm) > 0
