@@ -1,0 +1,5 @@
+KEYCOMP = WINDOWS
+CODEPAGE = AUTO
+screen=off
+files=40
+bufers=50
